@@ -30,5 +30,5 @@ After starting minikube to create a cluster:
     I create a replication controller green pod from the green folder: kubectl apply -f ./green-controller.json
     I create the service, redirect to blue and make it externally visible:kubectl apply -f ./blue-green-service.json
     To get the URL of the service by running, i just typed : minikube service bluegreenloadbalancer --url
-    when i open the website blue in my browser by using the URL in the previous step, i get the as the screenshot N°
-    when i update the service to redirect to green by changing the selector to app=green and implement the changes by typing : kubectl apply -f ./blue-green-service.json   , i get the green result as the screenshot N°
+    when i open the website blue in my browser by using the URL in the previous step, i get the as the screenshot N°17
+    when i update the service to redirect to green by changing the selector to app=green and implement the changes by typing : kubectl apply -f ./blue-green-service.json   , i get the green result as the screenshot N°18
