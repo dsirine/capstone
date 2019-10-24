@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "dsirine/blue_image_capstone"
+    registry = "dsirine/green_image_capstone"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
